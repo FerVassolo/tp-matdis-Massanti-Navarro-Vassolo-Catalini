@@ -1,0 +1,11 @@
+# Grafo hídrico de ejemplo - 8 barrios
+# Plantas: Nunez y Flores
+
+Palermo Recoleta
+Palermo Belgrano
+Belgrano Nunez
+Recoleta Retiro
+Boedo Almagro
+Boedo Caballito
+Caballito Flores
+Almagro Flores

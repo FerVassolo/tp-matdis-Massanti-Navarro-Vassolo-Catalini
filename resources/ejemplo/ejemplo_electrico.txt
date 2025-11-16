@@ -1,0 +1,14 @@
+# Grafo eléctrico de ejemplo - 8 barrios
+# Simula dos componentes conexos (dos redes independientes)
+
+# Componente 1 - Zona Norte
+Palermo Recoleta
+Palermo Belgrano
+Belgrano Nunez
+Recoleta Retiro
+
+# Componente 2 - Zona Sur
+Boedo Almagro
+Boedo Caballito
+Caballito Flores
+Almagro Flores

@@ -1,0 +1,10 @@
+# Grafo vial de ejemplo - 8 barrios con tiempos en minutos
+
+Palermo Recoleta 5
+Palermo Belgrano 7
+Belgrano Nunez 4
+Recoleta Retiro 3
+Boedo Almagro 4
+Boedo Caballito 5
+Caballito Flores 6
+Almagro Flores 5

@@ -1,0 +1,122 @@
+============================================================
+COMPONENTES CONEXOS - RED ELÉCTRICA
+============================================================
+Componente 1 (29 nodos):
+  Barracas, Boedo, Caballito, Flores, Floresta, LaBoca, Liniers, 
+  Mataderos, Monserrat, MonteCastro, NuevaPompeya, ParqueChacabuco, 
+  ParquePatricios, PuertoMadero, Retiro, SanCristobal, SanNicolas, 
+  SanTelmo, VelezSarsfield, Versalles, VillaDelParque, VillaDevoto, 
+  VillaGeneralMitre, VillaLugano, VillaLuro, VillaReal, VillaRiachuelo, 
+  VillaSantaRita, VillaSoldati
+Componente 2 (13 nodos):
+  Almagro, Belgrano, Chacarita, Coghlan, Colegiales, Nunez, Palermo, 
+  Recoleta, Saavedra, VillaCrespo, VillaOrtuzar, VillaPueyrredon, 
+  VillaUrquiza
+============================================================
+ORDEN DE FALLOS - RED ELÉCTRICA
+============================================================
+Nodos ordenados por criticidad (menor grado = más crítico):
+
+Grado 1 (5 nodos):
+  Nunez, SanCristobal, VillaDevoto, VillaOrtuzar, VillaPueyrredon
+
+Grado 2 (20 nodos):
+  Almagro, Boedo, Floresta, LaBoca, Liniers, MonteCastro, PuertoMadero, 
+  Recoleta, Retiro, SanNicolas, VelezSarsfield, Versalles, 
+  VillaDelParque, VillaGeneralMitre, VillaLugano, VillaReal, 
+  VillaRiachuelo, VillaSantaRita, VillaSoldati, VillaUrquiza
+
+Grado 3 (13 nodos):
+  Barracas, Caballito, Chacarita, Coghlan, Colegiales, Mataderos, 
+  NuevaPompeya, Palermo, ParqueChacabuco, Saavedra, SanTelmo, 
+  VillaCrespo, VillaLuro
+
+Grado 4 (2 nodos):
+  Flores, ParquePatricios
+
+Grado 5 (2 nodos):
+  Belgrano, Monserrat
+
+------------------------------------------------------------
+CAMINO MÍNIMO: Palermo → Belgrano
+------------------------------------------------------------
+Distancia total: 6.0 minutos
+Ruta: Palermo → Belgrano
+------------------------------------------------------------
+CAMINO MÍNIMO: Recoleta → Retiro
+------------------------------------------------------------
+Distancia total: 3.0 minutos
+Ruta: Recoleta → Retiro
+------------------------------------------------------------
+CAMINO MÍNIMO: Flores → Mataderos
+------------------------------------------------------------
+Distancia total: 12.0 minutos
+Ruta: Flores → Floresta → VelezSarsfield → Mataderos
+------------------------------------------------------------
+SIMULACIÓN DE CORTE: Palermo → Retiro
+Nodos cortados: Almagro, Boedo, Caballito
+------------------------------------------------------------
+Distancia total: 8.0 minutos
+Ruta alternativa: Palermo → Recoleta → Retiro
+------------------------------------------------------------
+SIMULACIÓN DE CORTE: Belgrano → VillaUrquiza
+Nodos cortados: Chacarita, Palermo
+------------------------------------------------------------
+Distancia total: 9.0 minutos
+Ruta alternativa: Belgrano → Saavedra → VillaUrquiza
+============================================================
+RUTA DE RECOLECCIÓN DE BASURA
+============================================================
+Total de paradas: 59
+Inicio: Almagro
+Fin: Liniers
+
+Recorrido completo:
+  Almagro → Balvanera → Caballito → Flores → Floresta → VelezSarsfield → Mataderos → VillaLugano →
+  VillaRiachuelo → VillaSoldati → ParquePatricios → Barracas → NuevaPompeya → Constitucion → Balvanera → Recoleta →
+  Retiro → PuertoMadero → SanNicolas → Retiro → Monserrat → SanTelmo → LaBoca → Constitucion →
+  Palermo → Belgrano → Colegiales → Chacarita → VillaCrespo → Palermo → Almagro → Boedo →
+  SanCristobal → Balvanera → ParquePatricios → NuevaPompeya → Coghlan → VillaOrtuzar → VillaLibertad → Colegiales →
+  VillaUrquiza → VillaDevoto → VillaDelParque → VillaGeneralMitre → VillaSantaRita → ParqueChacabuco → Caballito → VillaLuro →
+  Versalles → MonteCastro → VillaReal → Flores → Saavedra → Belgrano → Nunez → Saavedra →
+  VillaPueyrredon → ParqueAvellaneda → Liniers
+============================================================
+PLANTAS DE AGUA ASIGNADAS POR BARRIO
+============================================================
+Plantas disponibles: Saavedra, VillaSoldati
+
+Planta Saavedra (27 barrios):
+  Balvanera, Belgrano, Caballito, Chacarita, Coghlan, Colegiales, 
+  Flores, MonteCastro, Nunez, Palermo, ParqueChacabuco, PuertoMadero, 
+  Recoleta, Retiro, Saavedra, Versalles, VillaCrespo, VillaDelParque, 
+  VillaDevoto, VillaGeneralMitre, VillaLibertad, VillaLuro, 
+  VillaOrtuzar, VillaPueyrredon, VillaReal, VillaSantaRita, 
+  VillaUrquiza
+
+Planta VillaSoldati (19 barrios):
+  Almagro, Barracas, Boedo, Constitucion, Floresta, LaBoca, Liniers, 
+  Mataderos, Monserrat, NuevaPompeya, ParqueAvellaneda, 
+  ParquePatricios, SanCristobal, SanNicolas, SanTelmo, VelezSarsfield, 
+  VillaLugano, VillaRiachuelo, VillaSoldati
+
+============================================================
+PUNTOS CRÍTICOS - RED HÍDRICA
+============================================================
+
+ARTICULACIONES (7 nodos críticos):
+(Nodos cuya eliminación desconecta el grafo)
+
+  Coghlan, Mataderos, Monserrat, Saavedra, SanNicolas, SanTelmo, 
+  VillaLugano
+
+PUENTES (8 aristas críticas):
+(Aristas cuya eliminación desconecta el grafo)
+
+  • Coghlan ↔ VillaLibertad
+  • Coghlan ↔ VillaOrtuzar
+  • LaBoca ↔ SanTelmo
+  • Liniers ↔ Mataderos
+  • Monserrat ↔ SanNicolas
+  • Monserrat ↔ SanTelmo
+  • ParqueAvellaneda ↔ VillaLugano
+  • Saavedra ↔ VillaPueyrredon

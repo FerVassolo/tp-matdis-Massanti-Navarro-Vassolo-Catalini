@@ -1,0 +1,26 @@
+# --- Consultas red eléctrica ---
+
+COMPONENTES_CONEXOS ELECTRICA
+ORDEN_FALLOS ELECTRICA
+
+# --- Consultas red de transporte ---
+
+# caminos mínimos individuales
+# El primer barrio es el origen y el segundo el destino
+CAMINO_MINIMO Palermo Belgrano
+CAMINO_MINIMO Recoleta Retiro
+CAMINO_MINIMO Flores Mataderos
+
+# caminos mínimos considerando cortes
+# en este caso no se puede acceder a los barrios de Almagro, Boedo y Caballito
+CAMINO_MINIMO_SIMULAR_CORTE {Almagro,Boedo,Caballito} Palermo Retiro
+# en este caso no se puede acceder a los barrios de Palermo,Chacarita
+CAMINO_MINIMO_SIMULAR_CORTE {Palermo,Chacarita} Belgrano VillaUrquiza
+
+# recolección de basura
+CAMINO_RECOLECCION_BASURA
+
+# --- Consultas red de aguas ---
+# Saavedra y Villa Soldati son los barrios donde se procesa el agua de la ciudad
+PLANTAS_ASIGNADAS Saavedra VillaSoldati
+PUENTES_Y_ARTICULACIONES

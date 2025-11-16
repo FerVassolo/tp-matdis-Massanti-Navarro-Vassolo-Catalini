@@ -1,0 +1,14 @@
+# Ejemplo de consultas para grafos pequeños
+
+# Red eléctrica
+COMPONENTES_CONEXOS ELECTRICA
+ORDEN_FALLOS ELECTRICA
+
+# Red de transporte
+CAMINO_MINIMO Palermo Retiro
+CAMINO_MINIMO Boedo Flores
+CAMINO_MINIMO_SIMULAR_CORTE {Recoleta} Palermo Retiro
+
+# Red de aguas
+PLANTAS_ASIGNADAS Nunez Flores
+PUENTES_Y_ARTICULACIONES

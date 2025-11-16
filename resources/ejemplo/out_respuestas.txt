@@ -1,0 +1,66 @@
+============================================================
+COMPONENTES CONEXOS - RED ELÉCTRICA
+============================================================
+Componente 1 (5 nodos):
+  Belgrano, Nunez, Palermo, Recoleta, Retiro
+Componente 2 (4 nodos):
+  Almagro, Boedo, Caballito, Flores
+
+============================================================
+ORDEN DE FALLOS - RED ELÉCTRICA
+============================================================
+Nodos ordenados por criticidad (menor grado = más crítico):
+
+Grado 1 (2 nodos):
+  Nunez, Retiro
+
+Grado 2 (7 nodos):
+  Almagro, Belgrano, Boedo, Caballito, Flores, Palermo, Recoleta
+
+
+------------------------------------------------------------
+CAMINO MÍNIMO: Palermo → Retiro
+------------------------------------------------------------
+Distancia total: 8.0 minutos
+Ruta: Palermo → Recoleta → Retiro
+
+------------------------------------------------------------
+CAMINO MÍNIMO: Boedo → Flores
+------------------------------------------------------------
+Distancia total: 9.0 minutos
+Ruta: Boedo → Almagro → Flores
+
+------------------------------------------------------------
+SIMULACIÓN DE CORTE: Palermo → Retiro
+Nodos cortados: Recoleta
+------------------------------------------------------------
+Resultado: NO HAY RUTA ALTERNATIVA
+
+============================================================
+PLANTAS DE AGUA ASIGNADAS POR BARRIO
+============================================================
+Plantas disponibles: Flores, Nunez
+
+Planta Flores (4 barrios):
+  Almagro, Boedo, Caballito, Flores
+
+Planta Nunez (5 barrios):
+  Belgrano, Nunez, Palermo, Recoleta, Retiro
+
+
+============================================================
+PUNTOS CRÍTICOS - RED HÍDRICA
+============================================================
+
+ARTICULACIONES (3 nodos críticos):
+(Nodos cuya eliminación desconecta el grafo)
+
+  Belgrano, Palermo, Recoleta
+
+PUENTES (4 aristas críticas):
+(Aristas cuya eliminación desconecta el grafo)
+
+  • Belgrano ↔ Nunez
+  • Belgrano ↔ Palermo
+  • Palermo ↔ Recoleta
+  • Recoleta ↔ Retiro

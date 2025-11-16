@@ -1,0 +1,17 @@
+[project]
+name = "tp-matdis"
+version = "1.0.0"
+description = "Análisis de grafos para redes urbanas de Buenos Aires (eléctrica, vial e hídrica)"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[dependency-groups]
+dev = []
